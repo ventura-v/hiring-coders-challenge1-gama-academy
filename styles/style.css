@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+}
+
+#header img {
+    width: 100%;
+    height: 100vh;
+}
+
+.section-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/bg-2.jpg); 
+    background-attachment: fixed;
+    background-size: cover;  
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 2px 2px 20px #61E041;
+}
+
+.section-container .text-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section-container  p {
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.section-container form {
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.section-container .input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.section-container .input-container input {
+    height: 40px;
+    margin: 20px 0;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.section-container .input-container input:focus {
+    border: none;
+    outline: none;
+}
+
+.section-container #btn-submit {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #61E041;
+    color: #FFF;
+    text-shadow: 2px 2px 10px #FC3567;
+    cursor: pointer;
+}
+
+.section-container #btn-submit:hover {
+    opacity: 0.9;
+}
+
+#loader,
+#sended {
+    display: none;
+    padding-top: 10%;
+}
+
+#footer {
+    height: 150px;
+    padding: 20px 0 20px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFF;
+    background-image: url("/assets/footer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#footer a {
+    color: #D7197B;
+}
