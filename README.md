@@ -8,9 +8,9 @@ Eu acabei criando uma página chamada de "Green Friday", em alusão à cor princ
 
 Os dados inseridos no formulário são armazenados no Local Storage.
 
-O deploy do projeto foi feito na Netlify e o resultado final pode ser conferido [clicando aqui]() ou no gif abaixo:
+O deploy do projeto foi feito na Netlify e o resultado final pode ser conferido [clicando aqui](https://green-friday-hiring-coders.netlify.app/) ou no gif abaixo:
 
-[![](pitch.gif)]()
+[![](pitch.gif)](https://green-friday-hiring-coders.netlify.app/)
 
 ## Tecnologias utilizadas:
 :small_orange_diamond: HTML5
