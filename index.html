@@ -9,46 +9,51 @@
     <link rel="stylesheet" type="text/css" href="./styles/style.css" />
 </head>
 <body>
-
-    <header id="header">
-        <img 
-            src="./assets/green-friday.jpg" 
-            alt="Green Friday Logo" 
-            title="Green Friday" 
-            aria-label="imagem da campanha mostrando o desenho de um punho fechado na cor preta e ao lado direito uma logo com o texto 'Green Friday' na cor branca. o fundo da imagem está na cor verde."
-        />
-    </header>
+    <div id="content-container">
+        <header id="header">
+            <img 
+                src="./assets/green-friday.png" 
+                alt="Green Friday Logo" 
+                title="Green Friday" 
+                aria-label="imagem da campanha mostrando o desenho de um punho fechado na cor preta e ao lado direito uma logo com o texto 'Green Friday' na cor branca. o fundo da imagem está na cor verde."
+            />
+            <div class="logo-container">
+                <img class="logo gama" src="/assets/gama-icon.png" alt="Logo da Gama Academy" title="Logo da Gama Academy">
+                <img class="logo vtex" src="/assets/vtex-logo.png" alt="Logo da VTEX" title="Logo da VTEX">
+            </div>
+        </header> 
+        
+        <main id="content" class="section-container">
     
-    <main id="content" class="section-container">
-
-        <div class="text-container">
-            <p> Quer aprender com os melhores tutores do mercado e ainda fazer parte da melhor plataforma de comércio digital do mundo? </p>
-            <p> Preencha o formulário abaixo e aproveite esta oportunidade para fazer parte da Gama Academy e ter a chance de trabalhar na VTEX. </p>
+            <div class="text-container">
+                <p> Os melhores produtos dos melhores lugares você só encontra aqui!</p>
+                <p> Preencha o formulário abaixo e receba as nossas promoções primeiro</p>
+            </div>
+    
+    
+            <form id="form" method="POST">
+                <div class="input-container input-name">
+                    <label for="name">Digite o seu nome:</label>
+                    <input type="text" name="name" id="name" placeholder="Nome">
+                </div>
+                <div class="input-container input-email">
+                    <label for="email">Digite o seu melhor e-mail:</label>
+                    <input type="text" name="email" id="email" placeholder="E-mail">
+                </div>
+                <input id="btn-submit" type="submit" value="Cadastrar">
+            </form>
+        </main>
+    
+        <div id="loader" class="section-container">
+            <img src="./assets/loader.gif" alt="">
         </div>
-
-
-        <form id="form" method="POST">
-            <div class="input-container input-name">
-                <label for="name">Digite o seu nome</label>
-                <input type="text" name="name" id="name" placeholder="Nome">
-            </div>
-            <div class="input-container input-email">
-                <label for="email">Digite o seu melhor e-mail</label>
-                <input type="text" name="email" id="email" placeholder="E-mail">
-            </div>
-            <input id="btn-submit" type="submit" value="Cadastrar">
-        </form>
-    </main>
-
-    <div id="loader" class="section-container">
-        <img src="./assets/loader.gif" alt="">
+    
+        <div id="sended" class="section-container">
+            <p>Excelennte escolha! Agora é só checar seu e-mail.</p>
+        </div>
+    
+        <footer id="footer">Criado por <a href="https://www.linkedin.com/in/ventura-v/" target="_blank">Vinicius Ventura</a>. Todos os direitos reservados ©</footer>
     </div>
-
-    <div id="sended" class="section-container">
-        <p>Excelennte escolha! Agora é só checar seu e-mail.</p>
-    </div>
-
-    <footer id="footer">Criado por <a href="https://www.linkedin.com/in/ventura-v/" target="_blank">Vinicius Ventura</a>. Todos os direitos reservados ©</footer>
 
     <script type="text/javascript" src="./scripts/script.js"></script>
 </body>
