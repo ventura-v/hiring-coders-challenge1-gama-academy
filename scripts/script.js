@@ -24,6 +24,6 @@ form.addEventListener("submit", (e) => {
     setTimeout(() => {
         loader.style.display = "none";
         sended.style.display = "block"
-    }, 1000)
+    }, 2000)
 
 })
